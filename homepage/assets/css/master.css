@@ -182,11 +182,34 @@ a.socialIcon:hover, .socialHoverClass {
   border: 5px solid black;
 }
 
-.copyrightSection {
-  background-color: rgba(148, 115, 17, 1);
+.footerSection {
   color: black;
 }
 
-.copyrightSection p {
+.footerSection ul {
   margin: 0;
+}
+
+ul.footer-links {
+	list-style: none;
+	display: inline;
+	margin-left: 0 !important;
+	padding: 0;
+}
+
+ul.footer-links li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.footer-links li a {
+  -webkit-transition: color .3s, font-size .3s;
+  -moz-transition: color .3s, font-size .3s;
+  -o-transition: color .3s, font-size .3s;
+  transition: color .3s, font-size .3s;
+}
+
+.footer-links li a:hover {
+  color: red;
+	font-size: 1.1em;
 }
