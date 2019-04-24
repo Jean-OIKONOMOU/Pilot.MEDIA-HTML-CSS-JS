@@ -8,9 +8,9 @@ $(window).on("load", function() {
    direction: 'horizontal',
    loop: false,
    // If we need pagination
-   pagination: {
-     el: '.swiper-pagination',
-   },
+   // pagination: {
+   //   el: '.swiper-pagination',
+   // },
 
    // Navigation arrows
    navigation: {
