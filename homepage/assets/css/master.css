@@ -40,12 +40,14 @@ img, iframe {
 .menu {
   padding: 0;
   border: 2px black solid;
+  border-radius: 5px !important;
   background-color: red;
   -webkit-box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
   -moz-box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
   box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
   color: black;
 }
+/* BUTTON CLICK ANIMATION NEEDED ! */
 
 #navigation {
   background-color: #9d9d9d;
