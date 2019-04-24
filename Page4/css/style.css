@@ -1,0 +1,56 @@
+h2 {
+    padding-bottom: 30px;
+}
+.section {
+    padding-top: 50px;
+}
+.brown {
+    background-color: brown;
+    border-style: solid;
+    width: 100px;
+}
+.violet {
+    background-color: blueviolet;
+    border-style: solid;
+    width: 100%;
+    height: 200px;
+}
+.logo {
+    text-align: right;
+}
+.footerSection {
+    color: black;
+}
+
+.footerSection ul {
+margin: 0;
+}
+
+ul.footer-links {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.footer-links li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.footer-links li a {
+-webkit-transition: color .3s, font-size .3s;
+-moz-transition: color .3s, font-size .3s;
+-o-transition: color .3s, font-size .3s;
+transition: color .3s, font-size .3s;
+}
+
+.footer-links li a:hover {
+color: red;
+    font-size: 1.1rem;
+}
+
+.filter li {
+display: inline-block;
+padding: 5px;
+}
