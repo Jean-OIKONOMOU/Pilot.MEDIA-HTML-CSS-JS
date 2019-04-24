@@ -1,39 +1,92 @@
 .section {
-    padding: 20px 0px;
+    padding: 50px 0;
+    background-color: rgba(180, 180, 250, 0.2);
+    color: black;
+}
+
+.menu {
+    padding: 0;
+    border: 2px black solid;
+    border-radius: 5px !important;
+    background-color: red;
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+    color: black;
+}
+
+#navigation {
+    background-color: #ebe7ec;
+    padding: 20px 10px;
+    z-index: 999;
+    width: 100%;
+}
+
+#navigation li {
+padding: 0 10px;
+}
+
+#navigation li a {
+color: black !important;
+}
+
+#navigation li a:hover{ border-bottom: 0px; color: #fff;}
+#navigation li:first-child a{ border-left: 10px solid #3498db; }
+#navigation li:nth-child(2) a{ border-left: 10px solid #ffd071; }
+#navigation li:nth-child(3) a{ border-left: 10px solid #f0776c; }
+#navigation li:nth-child(4) a{ border-left: 10px solid #fe2c2c; }
+#navigation li:last-child a{ border-left: 10px solid #1abc9c; }
+
+#navigation li a:after {
+    content: "";
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 0px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    z-index: -1;
+}
+
+#navigation li a:hover:after{ width: 100%; }
+#navigation li:first-child a:after{ background: #3498db; }
+#navigation li:nth-child(2) a:after{ background: #ffd071; }
+#navigation li:nth-child(3) a:after{ background: #f0776c; }
+#navigation li:nth-child(4) a:after{ background: #fe2c2c; }
+#navigation li:last-child a:after{ background: #1abc9c; }
+
+.navbar-brand,
+.navbar-brand:hover,
+.fa-project-diagram {
+    color: black !important;
+}
+
+#navigation {
+    position: fixed;
+    top: 0;
 }
 
 .titleImage {
-    background-color: yellow;
+    background-color: rgb(120, 120, 250);
     display: block;
     text-align: center;
     border: solid 1px blue;
-    min-height: 80px;
-    max-height: 400px;
+    min-height: 200px;
+    max-height: 800px;
     min-width: 100%;
 }
 
 .personalImage {
-    background-color: darkkhaki;
-}
-
-div.title {
-    background-color: lightgreen;
-}
-
-h1 {
-    color: red;
-    text-align: center;
-}
-
-.lienPerso {
     display: block;
-    background-color: crimson;
-    border: solid 2px blue;
+    justify-items: center;
     text-align: center;
-}
-
-.fiche {
-    text-align: justify;
+    background-color: darkkhaki;
+    min-height: 150px;
+    max-height: 600px;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 6px 0px;
 }
 
 .separatorImage {
@@ -44,4 +97,105 @@ h1 {
     min-height: 150px;
     max-height: 600px;
     min-width: 100%;
+    margin: 8px 0px;
+}
+
+div.title {
+    background-color: lightgreen;
+}
+
+h1, h3 {
+    color: red;
+    text-align: center;
+}
+
+.test {
+    display: block;
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+div .aPersonal {
+    background-color: #8888FF;
+    border: solid 1px blue;
+    border-radius: 3px;
+}
+
+div .aPersonal:hover {
+    background-color: #5555BB;
+}
+
+.btn {
+    min-width: 120px;
+    max-width: 120px;
+    min-height: 100px;
+    max-height: 100px;
+    color: rgb(240, 240, 250);
+}
+
+.btn:hover {
+    color: rgba(240, 240, 250, 0.7);
+
+}
+
+
+.desc {
+    text-align: justify;
+}
+
+body, html {
+    margin: 0;
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: black !important;
+}
+
+a:hover
+{
+    text-decoration:none;
+    cursor:pointer;
+}
+
+  *:focus {
+    outline: 0 !important;
+}
+.footerSection {
+    color: black;
+}
+
+.footerSection ul {
+margin: 0;
+}
+
+ul.footer-links {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.footer-links li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.footer-links li a {
+-webkit-transition: color .3s, font-size .3s;
+-moz-transition: color .3s, font-size .3s;
+-o-transition: color .3s, font-size .3s;
+transition: color .3s, font-size .3s;
+}
+
+.footer-links li a:hover {
+color: red;
+    font-size: 1.1rem;
+}
+
+.filter li {
+    display: inline-block;
+    padding: 5px;
 }
