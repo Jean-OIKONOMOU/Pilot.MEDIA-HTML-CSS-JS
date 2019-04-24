@@ -3,27 +3,33 @@ $(window).on("load", function() {
     $(".loader").fadeOut(250);
   });
 
-  var mySwiper = new Swiper ('.swiper-container', {
-   // Optional parameters
-   direction: 'horizontal',
-   loop: false,
-   // If we need pagination
-   // pagination: {
-   //   el: '.swiper-pagination',
-   // },
+  var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 45,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows : true,
+        },
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
 
-   // Navigation arrows
-   navigation: {
-     nextEl: '.swiper-button-next',
-     prevEl: '.swiper-button-prev',
-   },
-
-   // And if we need scrollbar
-   scrollbar: {
-     el: '.swiper-scrollbar',
-   },
- })
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+          hide: true,
+        },
+      })
 })
+
+
 
 const nav = $("#navigation");
 const navTop = nav.offset().top;
@@ -38,7 +44,7 @@ $("#navigation li a").click(function(e) {
 
 var randomimage = faker.image.image(); // Caitlyn Kerluke
 
-var matches = document.querySelectorAll("div.swiper-slide > img");
+var matches = document.querySelectorAll("div.imgBx > img");
 
 for (var i = 0; i<matches.length; i++) {
   matches[i].src = randomimage;
