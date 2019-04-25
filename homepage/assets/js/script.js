@@ -13,12 +13,17 @@ $(window).on("load", function() {
           stretch: 0,
           depth: 100,
           modifier: 1,
+          mousewheel: true,
           slideShadows : true,
         },
         // Navigation arrows
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
+          hide: true,
+        },
+        keyboard: {
+        enabled: true,
         },
 
         // And if we need scrollbar
