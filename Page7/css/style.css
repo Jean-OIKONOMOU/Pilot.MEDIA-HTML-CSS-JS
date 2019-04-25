@@ -16,6 +16,9 @@ a:hover {
 .section {
     padding-top: 70px;
 }
+.row {
+    padding-top: 20px;
+}
 .menu {
     padding: 0;
     border: 2px black solid;

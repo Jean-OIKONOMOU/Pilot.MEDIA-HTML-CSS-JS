@@ -81,13 +81,7 @@ h2 {
     border-style: solid;
     width: 200px;
     height: 200px;
-    margin: auto auto 2ƒ0px auto;
-}
-.my-fa-fc:before {
-    content: "\f082";
-}
-.my-fa-tw:before {
-    content: "\f099";
+    margin: auto auto 20px auto;
 }
 .footerSection {
     color: black;
