@@ -34,8 +34,48 @@ a:hover
 }
 /* BUTTON CLICK ANIMATION NEEDED ! */
 
+.icon-bar {
+	width: 22px;
+	height: 2px;
+	background-color: black;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
 #navigation {
-  background-color: #ebe7ec;
+  background-color: white;
   padding: 20px 10px;
   z-index: 999;
   width: 100%;
@@ -49,12 +89,30 @@ a:hover
   color: black !important;
 }
 
-#navigation li a:hover{ border-bottom: 0px; color: #fff;}
-#navigation li:first-child a{ border-left: 10px solid #3498db; }
-#navigation li:nth-child(2) a{ border-left: 10px solid #ffd071; }
-#navigation li:nth-child(3) a{ border-left: 10px solid #f0776c; }
-#navigation li:nth-child(4) a{ border-left: 10px solid #fe2c2c; }
-#navigation li:last-child a{ border-left: 10px solid #1abc9c; }
+#navigation li a:hover {
+  border-bottom: 0px;
+  color: #fff;
+}
+
+#navigation li:first-child a {
+  border-left: 10px solid #3498db;
+}
+
+#navigation li:nth-child(2) a {
+  border-left: 10px solid #ffd071;
+}
+
+#navigation li:nth-child(3) a {
+  border-left: 10px solid #f0776c;
+}
+
+#navigation li:nth-child(4) a {
+  border-left: 10px solid #fe2c2c;
+}
+
+#navigation li:last-child a {
+  border-left: 10px solid #1abc9c;
+}
 
 #navigation li a:after {
   content: "";
@@ -68,12 +126,29 @@ a:hover
   z-index: -1;
 }
 
-#navigation li a:hover:after{ width: 100%; }
-#navigation li:first-child a:after{ background: #3498db; }
-#navigation li:nth-child(2) a:after{ background: #ffd071; }
-#navigation li:nth-child(3) a:after{ background: #f0776c; }
-#navigation li:nth-child(4) a:after{ background: #fe2c2c; }
-#navigation li:last-child a:after{ background: #1abc9c; }
+#navigation li a:hover:after {
+  width: 100%;
+}
+
+#navigation li:first-child a:after {
+  background: #3498db;
+}
+
+#navigation li:nth-child(2) a:after {
+  background: #ffd071;
+}
+
+#navigation li:nth-child(3) a:after {
+  background: #f0776c;
+}
+
+#navigation li:nth-child(4) a:after {
+  background: #fe2c2c;
+}
+
+#navigation li:last-child a:after {
+  background: #1abc9c;
+}
 
 .navbar-brand,
 .navbar-brand:hover,
