@@ -1,5 +1,5 @@
 .section {
-    padding: 50px 0px;
+    padding: 20px 0px;
     background-color: rgba(200, 200, 250, 1);
     color: black;
 }
@@ -67,6 +67,10 @@ color: black !important;
     top: 0;
 }
 
+.title {
+    margin-top: 20px;
+}
+
 .titleImage {
     background-color: peru;
     display: block;
@@ -99,13 +103,14 @@ color: black !important;
     min-height: 150px;
     max-height: 600px;
     min-width: 100%;
-    margin: 8px 0px;
+    margin: 14px 0px;
 }
 
 div.title {
 }
 
 h1, h3 {
+    margin-top: 8px;
     background-color: rgb(250, 180, 100);
     text-align: center;
     border: solid 2px rgb(200, 150, 80);
@@ -116,8 +121,10 @@ h1, h3 {
 }
 
 .fiche {
+    margin-top: 8px;
     background-color: rgb(170, 170, 220);
-    box-shadow: 3px 3px 4px 0px rgb(120, 120, 170)
+    box-shadow: 3px 3px 4px 0px rgb(120, 120, 170),
+                -3px 3px 4px 0px rgb(120, 120, 170);
 }
 
 .test {
@@ -127,27 +134,30 @@ h1, h3 {
     text-decoration: none;
 }
 
-div .aPersonal {
+.aPersonal {
     background-color: #8888FF;
     border: solid 1px blue;
     border-radius: 3px;
+    padding: 5px 0px;
+    margin: 0px;
+    height: 30px;
+    width: 80px;
 }
 
-div .aPersonal:hover {
+.aPersonal:hover {
     background-color: #5555BB;
 }
 
 .btn {
-    min-width: 120px;
-    max-width: 120px;
-    min-height: 100px;
-    max-height: 100px;
+    padding: 0px;
+    margin: 0px;
+    height: 30px;
+    width: 80px;
     color: rgb(240, 240, 250);
 }
 
 .btn:hover {
     color: rgba(240, 240, 250, 0.7);
-
 }
 
 
