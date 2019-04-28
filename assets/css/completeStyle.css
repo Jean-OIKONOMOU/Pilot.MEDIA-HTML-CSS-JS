@@ -36,7 +36,7 @@ body, html {
 /* à corriger */
 .section {
     padding: 20px 0px;
-    background-color: rgba(200, 200, 250, 1);
+    /* background-color: rgba(200, 200, 250, 1); */
     color: black;
 }
 
