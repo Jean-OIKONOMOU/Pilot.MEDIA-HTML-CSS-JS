@@ -35,32 +35,40 @@ $(window).on("load", function() {
 })
 
 
+// GET API
 
-// const nav = $("#navigation");
-// const navTop = nav.offset().top;
-//
-// $("#navigation li a").click(function(e) {
-//   e.preventDefault();
-//
-//   var targetElement = $(this).attr("href");
-//   var targetPosition = $(targetElement).offset().top;
-//   $("html, body").animate({ scrollTop: targetPosition - 79}, "slow");
-// });
-//
-// var randomimage = faker.image.image(); // Caitlyn Kerluke
-//
-// var matches = document.querySelectorAll("div.imgBx > img");
-//
-// for (var i = 0; i<matches.length; i++) {
-//   matches[i].src = randomimage;
-// };
-
-var url = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ffeed.pippa.io%2Fpublic%2Fshows%2Fwords-matter";
+var url = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ffeed.pippa.io%2Fpublic%2Fshows%2Fwords-matter&api_key=gxhefr3me3gps8jxc4oyinpybuokklciigkqfbfm&count=100";
 fetch(url)
-  .then(function(resp) {
-    return resp.json();
-  })
-  .then(function(data) {
-    console.log(data);
-    console.log(data.items[0].title);
-  })
+.then(function(resp) {
+return resp.json();
+})
+.then(function(json) {
+
+//console.log(json);
+
+for (var i = 0; i<json.items.length; i++) {
+
+var object = json.items[i];
+
+
+truc.insertAdjacentHTML('afterbegin',
+
+  `
+
+    <div  class="swiper-slide">
+
+      <div class="imgBx">
+        <audio controls id="lecteur" src=${object.enclosure.link} type="audio/mp3" preload="none"> </audio>
+      </div>
+
+    <div class="details pb-1">
+     <h6><span>${object.title}</span></h6>
+    </div>
+
+    </div>
+    
+
+  `
+);
+}
+})
