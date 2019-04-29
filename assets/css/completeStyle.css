@@ -480,3 +480,19 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 /* Unable to locate /End */
+
+.items .icons {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 100%;
+  top: 0%;
+  margin: 5px auto 0 -40px;
+  padding-left:20px;
+  text-align: center;
+  z-index: 3;
+}
+
+.items .icons a {
+display: block;
+}
