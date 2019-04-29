@@ -6,23 +6,31 @@ return resp.json();
 })
 .then(function(json) {
 
-var y = "";
-var z = "";
-
 //console.log(json);
 
 for (var i = 0; i<json.items.length; i++) {
 
 var object = json.items[i];
 
-var a = json.items[i].enclosure.link;
-var b = json.items[i].title;
 
-y+= '<audio controls id="chat" src="'+a+'" type="audio/mp3" preload="none"> </audio>';
-z+= '<div id="title"> '+b+' </div>';
+
+result.insertAdjacentHTML('beforeend',
+
+  `
+     <div id= "truc" class="swiper-slide">
+
+       <div class="imgBx">
+         <audio controls id="lecteur" src=${object.enclosure.link} type="audio/mp3" preload="none"> </audio>
+       </div>
+
+       <div class="details pb-1">
+         <h4>${object.title}</span></h4>
+       </div>
+
+     </div>`
+
+);
 }
 
-document.getElementById('chat').innerHTML=y;
-document.getElementById('title').innerHTML=z;
 
 })
