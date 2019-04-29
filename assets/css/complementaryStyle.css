@@ -1,0 +1,48 @@
+/* à changer de nom -> */
+.row {
+    padding-top: 20px;
+}
+
+/* -> à changer de nom */
+
+/* Specific to page 3 to 7 */
+
+h2 {
+    padding-bottom: 30px;
+}
+
+.brown {
+    background-color: brown;
+    border-style: solid;
+    width: 100px;
+}
+
+.violet {
+    background-color: blueviolet;
+    border-style: solid;
+    width: 100%;
+    height: 200px;
+}
+
+.logo1 {
+    position: absolute;
+}
+
+.logo {
+    text-align: right;
+}
+
+.blue {
+    background-color: aqua;
+    border-style: solid;
+    width: 100%;
+    height: 200px;
+}
+
+.pic {
+    background-color: aqua;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    margin: auto auto 20px auto;
+}
