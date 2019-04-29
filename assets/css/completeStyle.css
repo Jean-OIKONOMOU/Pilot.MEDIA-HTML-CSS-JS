@@ -349,6 +349,18 @@ ul.footer-links li {
     transition: color .3s, font-size .3s;
 }
 
+.bulge {
+  -webkit-transition: color .3s, font-size .3s;
+  -moz-transition: color .3s, font-size .3s;
+  -o-transition: color .3s, font-size .3s;
+  transition: color .3s, font-size .3s;
+}
+
+.bulge:hover {
+  color: red !important;
+  font-size: 1.1rem;
+}
+
 .footer-links li a:hover {
     color: red !important;
     font-size: 1.1rem;
