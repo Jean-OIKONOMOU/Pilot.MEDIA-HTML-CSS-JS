@@ -1,5 +1,5 @@
 $(window).on("load", function() {
-  $(".loader .inner").fadeOut(1000, function () {
+  $(".loader .inner").fadeOut(1500, function () {
     $(".loader").fadeOut(250);
   });
 
