@@ -1,6 +1,6 @@
 $(window).on("load", function() {
-  $(".loader .inner").fadeOut(1500, function () {
-    $(".loader").fadeOut(250);
+  $(".loader .inner").fadeOut(900, function () {
+    $(".loader").fadeOut(200);
   });
 
   var swiper = new Swiper('.swiper-container', {
@@ -66,7 +66,7 @@ truc.insertAdjacentHTML('afterbegin',
     </div>
 
     </div>
-    
+
 
   `
 );
