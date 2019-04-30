@@ -349,18 +349,6 @@ ul.footer-links li {
     transition: color .3s, font-size .3s;
 }
 
-.bulge {
-  -webkit-transition: color .3s, font-size .3s;
-  -moz-transition: color .3s, font-size .3s;
-  -o-transition: color .3s, font-size .3s;
-  transition: color .3s, font-size .3s;
-}
-
-.bulge:hover {
-  color: red !important;
-  font-size: 1.1rem;
-}
-
 .footer-links li a:hover {
     color: red !important;
     font-size: 1.1rem;
@@ -480,19 +468,3 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 /* Unable to locate /End */
-
-.items .icons {
-  position: absolute;
-  width: 90px;
-  height: 40px;
-  left: 100%;
-  top: 0%;
-  margin: 5px auto 0 -40px;
-  padding-left:20px;
-  text-align: center;
-  z-index: 3;
-}
-
-.items .icons a {
-display: block;
-}
