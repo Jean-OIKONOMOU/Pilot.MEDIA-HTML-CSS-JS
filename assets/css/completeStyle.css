@@ -495,3 +495,7 @@ display: block;
   width:100%;
   transition:800ms ease all;
 }
+
+.xmargin {
+  margin: 3em 3em;
+}
