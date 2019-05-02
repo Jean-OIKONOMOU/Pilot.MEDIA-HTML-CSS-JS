@@ -180,11 +180,6 @@ body, html {
   color: white;
   text-align: center;
   box-sizing: border-box;
-  padding: 5px;
-}
-
-.swiper-slide .details h4 span {
-  font-size: 17px !important;
 }
 
 .swiper-slide .imgBx img {
