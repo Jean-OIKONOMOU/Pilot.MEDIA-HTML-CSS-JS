@@ -1,6 +1,26 @@
+/* General CSS */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
+/* Media Queries */
+
 @media (min-width: 481px) and (max-width: 575px) {
   .form-inline .mobile-space {
     margin-top: 15px;
+  }
+  .cta {
+    line-height: 1.4;
+    padding: 1.25rem 1rem;
+  }
+  form {
+    flex-flow: row wrap;
+  }
+  form input {
+    padding: 1rem !important;
+    margin: 0 !important;
+    flex: 100%;
+  }
+  form input[type="submit"] {
+    margin-top: 1rem !important;
   }
 }
 
@@ -8,17 +28,53 @@
   .form-inline .mobile-space {
     margin-top: 15px;
   }
+  .cta {
+    line-height: 1.4;
+    padding: 1.25rem 1rem;
+  }
+  form {
+    flex-flow: row wrap;
+  }
+  form input {
+    padding: 1rem !important;
+    margin: 0 !important;
+    flex: 100%;
+  }
+  form input[type="submit"] {
+    margin-top: 1rem !important;
+  }
 }
 
 @media (min-width: 0px) and (max-width: 320px) {
   .form-inline .mobile-space {
     margin-top: 15px;
   }
+  .cta {
+    line-height: 1.4;
+    padding: 1.25rem 1rem;
+  }
+  form {
+    flex-flow: row wrap;
+  }
+  form input {
+    padding: 1rem !important;
+    margin: 0 !important;
+    flex: 100%;
+  }
+  form input[type="submit"] {
+    margin-top: 1rem !important;
+  }
 }
+
+/* -- End -- Media Queries */
 
 body, html {
   margin: 0;
   background-color: rgba(200, 200, 250, 1);
+}
+
+* {
+  box-sizing: border-box;
 }
 
 *:focus {
@@ -377,8 +433,79 @@ a.socialIcon:hover, .socialHoverClass {
   content: "\f099";
 }
 
+.optin-container {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  width: 30rem;
+}
+
+.cta {
+  background: #6030FF;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 2rem;
+  line-height: 1;
+  padding: 1.75rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+form {
+  background: #3020B0;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 1rem;
+  maring: 0;
+}
+
+form input {
+  padding: 0.75rem;
+  margin: 0;
+}
+
+form input[type="email"] {
+  border: none;
+  font-size: 1rem;
+  flex: 1;
+  outline: #6030FF;
+}
+
+form input[type="email"]:focus {
+  outline: 0.25rem solid #6030FF;
+}
+
+form input[type="submit"] {
+  background: linear-gradient(#744aff, #6030ff);
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  margin: 0 0 0 1rem;
+  padding: 0 3rem;
+  transition: all 0.25s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+  background: linear-gradient(#784fff, #6435ff);
+}
+
+.hidden {
+  display: none;
+}
+
 .borderBlack {
-  border: 5px solid black;
+  color: #212121;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.separatorSpace {
+  margin: 20px 0px;
+  justify-content: center;
 }
 
 .form-rounded {
