@@ -564,9 +564,9 @@ form input[type="submit"]:hover {
 }
 
 .button.green {
-  background-color: black;
-  border-color: black;
-  color: #fff;
+  background-color: rgba(219, 219, 210, 0.69);
+  border-radius: 5px 15px;
+  color: black;
   text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .3)), to(rgba(255, 255, 255, 0)));
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
