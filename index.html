@@ -20,11 +20,11 @@
 </head>
 
 <body>
-
-  <div class="loader">
-    <div class="inner">
+  <div class="containerParallax">
+    <div class="loader">
+      <div class="inner">
+      </div>
     </div>
-  </div>
 
   <nav id="navigation" class="navbar flex-lg-row-reverse navbar-expand-lg py-1">
     <button class="navbar-toggler collapsed mb-1" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -56,85 +56,86 @@
     </div>
   </nav>
 
-  <div class="pippaSection section mt-5">
-    <!-- Slider main container -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-9 center embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oerm5Q_9u2A" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe>
+    <div class="pippaSection section mt-5 parallax">
+      <!-- Slider main container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 center embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oerm5Q_9u2A" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="podcastSection section">
-    <!-- Slider main container -->
-    <div class="container">
-      <div class="row">
+    <div class="podcastSection section parallax">
+      <!-- Slider main container -->
+      <div class="container">
+        <div class="row">
 
+          <div class="col-md-12 text-center">
+            <h2 class="mb-3">STUDIO NAME</h2>
+            <p class="mb-5">LAUREL IPSUM LAUREL IPSUM LAUREL IPSUM LAUREL IPSUM:</p>
+          </div>
+
+
+          <!-- Additional required wrapper -->
+          <div class="swiper-container col-12 col-lg-8">
+            <div id="truc" class="swiper-wrapper"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="section parallax">
+      <div id="contact" class="contactSection">
         <div class="col-md-12 text-center">
-          <h2 class="mb-3">STUDIO NAME</h2>
-          <p class="mb-5">LAUREL IPSUM LAUREL IPSUM LAUREL IPSUM LAUREL IPSUM:</p>
+          <div class="pb-3">
+            <ul class="social-network social-circle ">
+              <li><a href="#" class="icoFacebook"><i class="fab my-fa-fc"></i></a></li>
+              <li><a href="#" class="icoInsta mx-4"><i class="fab my-fa-in"></i></a></li>
+              <li><a href="#" class="icoTwitter"><i class="fab my-fa-tw"></i></a></li>
+            </ul>
+          </div>
         </div>
+      </div>
 
-
-        <!-- Additional required wrapper -->
-        <div class="swiper-container col-12 col-lg-8">
-          <div id="truc" class="swiper-wrapper"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-scrollbar"></div>
+      <div class="container mx-auto section">
+        <div class="borderBlack">
+          <div class="optin-container">
+            <div class="cta">Newsletter</div>
+            <form class="form hidden">
+              <input type="email" id="email" name="email" placeholder="address@mailing.com" />
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
         </div>
-
-
+        <p class="mb-4 text-center separatorSpace">Votre email ne sera pas compromis.<i
+            class="ml-1 fas fa-user-ninja"></i></p>
       </div>
     </div>
-  </div>
 
-  <div class="section">
-    <div id="contact" class="contactSection">
-      <div class="col-md-12 text-center">
-        <div class="pb-3">
-          <ul class="social-network social-circle ">
-            <li><a href="#" class="icoFacebook"><i class="fab my-fa-fc"></i></a></li>
-            <li><a href="#" class="icoInsta mx-4"><i class="fab my-fa-in"></i></a></li>
-            <li><a href="#" class="icoTwitter"><i class="fab my-fa-tw"></i></a></li>
+
+    <div id="contact" class="mb-3 footerSection parallax">
+      <div class="col-md-12 text-center px-0">
+        <div class="mb-4">
+          <ul class="footer-links">
+            <li><a href="#" class="icoFacebook">Mentions légales</a></li>
+            <li class="mx-0 px-0">|</li>
+            <li><a href="#" class="icoInsta">GDPR</a></li>
+            <li class="mx-0 px-0">|</li>
+            <li><a href="#" class="icoTwitter">Contact</a></li>
           </ul>
         </div>
       </div>
     </div>
-
-    <div class="container mx-auto section">
-      <div class="borderBlack">
-        <div class="optin-container">
-          <div class="cta">Newsletter</div>
-          <form class="form hidden">
-            <input type="email" id="email" name="email" placeholder="address@mailing.com" />
-            <input type="submit" value="Submit" />
-          </form>
-        </div>
-      </div>
-      <p class="mb-4 text-center separatorSpace">Votre email ne sera pas compromis.<i class="ml-1 fas fa-user-ninja"></i></p>
-    </div>
   </div>
-
-
-  <div id="contact" class="mb-3 footerSection">
-    <div class="col-md-12 text-center px-0">
-      <div class="mb-4">
-        <ul class="footer-links">
-          <li><a href="#" class="icoFacebook">Mentions légales</a></li>
-          <li class="mx-0 px-0">|</li>
-          <li><a href="#" class="icoInsta">GDPR</a></li>
-          <li class="mx-0 px-0">|</li>
-          <li><a href="#" class="icoTwitter">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
