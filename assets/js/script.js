@@ -1,5 +1,5 @@
 $(window).on("load", function() {
-  $(".loader").fadeOut(1000);
+  $(".inner").fadeOut(1000);
 
   var swiper = new Swiper('.swiper-container', {
         effect: 'coverflow',
