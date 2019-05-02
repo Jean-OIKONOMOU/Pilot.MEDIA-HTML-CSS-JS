@@ -56,14 +56,15 @@ truc.insertAdjacentHTML('afterbegin',
   `
 
     <div  class="swiper-slide">
+    <div class="details pb-1">
+
+    </div>
 
       <div class="imgBx">
-        <audio controls id="lecteur" src=${object.enclosure.link} type="audio/mp3" preload="none"> </audio>
+           <img height="170px" src="https://thumbnailer.mixcloud.com/unsafe/600x600/extaudio/1/a/7/f/299c-cc9b-4e71-901a-0652162ae3e5">
+          <iframe width=\"100%\" height=\"120\" src=\"https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FMOMBO%2Fmombo-11-clubbers-radio-show-feb19%2F&amp;hide_cover=1\" frameborder=\"0\"></iframe>\n
       </div>
 
-    <div class="details pb-1">
-     <h6><span>${object.title}</span></h6>
-    </div>
 
     </div>
 
