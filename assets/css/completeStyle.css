@@ -173,24 +173,35 @@ body, html {
   color: black;
 }
 
+
+
+.navbar-brand, .navbar-brand:hover, .fa-project-diagram {
+  color: white;
+}
+
+#navigation {
+  position: fixed;
+  top: 0;
+}
+
 #navigation li:first-child a {
-  border-left: 10px solid #3498db;
+  border-left: 10px solid #321eaf;
 }
 
 #navigation li:nth-child(2) a {
-  border-left: 10px solid #ffd071;
+  border-left: 10px solid #7864fa;
 }
 
 #navigation li:nth-child(3) a {
-  border-left: 10px solid #f0776c;
+  border-left: 10px solid #d3d3d3;
 }
 
 #navigation li:nth-child(4) a {
-  border-left: 10px solid #fe2c2c;
+  border-left: 10px solid #7864fa;
 }
 
 #navigation li:last-child a {
-  border-left: 10px solid #1abc9c;
+  border-left: 10px solid #321eaf;
 }
 
 #navigation li a:after {
@@ -210,32 +221,23 @@ body, html {
 }
 
 #navigation li:first-child a:after {
-  background: #3498db;
+  background: #321eaf;
 }
 
 #navigation li:nth-child(2) a:after {
-  background: #ffd071;
+  background: #7864fa;
 }
 
 #navigation li:nth-child(3) a:after {
-  background: #f0776c;
+  background: #d3d3d3;
 }
 
 #navigation li:nth-child(4) a:after {
-  background: #fe2c2c;
+  background: #7864fa;
 }
 
 #navigation li:last-child a:after {
-  background: #1abc9c;
-}
-
-.navbar-brand, .navbar-brand:hover, .fa-project-diagram {
-  color: white;
-}
-
-#navigation {
-  position: fixed;
-  top: 0;
+  background: #321eaf;
 }
 
 .swiper-container {
