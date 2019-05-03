@@ -5,7 +5,7 @@
 - [Reda M'rabet](https://github.com/redamrabet)
 - [Othman Moulila](https://github.com/luffy1140/)
 - [Pablo Mombo](https://github.com/pablomombo/)
-- [Mathieu Meurant](https://github.com/MazzinWX/)
+- [Matthieu Meurant](https://github.com/MazzinWX/)
 - [Jean OIKONOMOU](https://github.com/Jean-OIKONOMOU/)
 
 - Required time : 10 days
@@ -44,7 +44,7 @@ Pablo:
  - Social buttons
  - Typography
 
-Mathieu:
+Matthieu:
  - Page 2, personal page 1 and 2
  - General design, color chart, visual colors
  - Cleaning of the CSS code and condensation
