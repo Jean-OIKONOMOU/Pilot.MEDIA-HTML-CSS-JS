@@ -1,15 +1,17 @@
-body {
-   /* Standard syntax (must be last) */
-}
-
 .testRadiant {
   width: 100%;
   height: 1600px;
 }
 
-p.cadreStyling {
+.cadreStyling {
   background-color: rgba(200,200,200,0.8);
 }
+
+div.cadreStyling {
+  box-shadow: 3px 3px 8px 0px rgba(50, 30, 175, 0.7);
+
+}
+
 
 .containerParallax {
   width: 100%;
@@ -17,11 +19,12 @@ p.cadreStyling {
 
 .parallax {
   width: 100%;
-  
   background-color: #6435ff; /* For browsers that do not support gradients */
-  background-image: linear-gradient(160deg, blue 0% 25%,rgb(100,200,210) 25% 75%, rgb(255, 255, 255) 75% 100%);
   background-size: cover;
   background-attachment: fixed;
+  background-image: linear-gradient(160deg, rgb(50, 30, 175) 0% 20%,
+  rgb(120,100,250) 20.15% 60%,
+  rgb(255, 255, 255) 60.15%);
 }
 
 
@@ -308,15 +311,11 @@ img, iframe {
   align-items: center;
 }
 
-h1, h3 {
+h1, h2, h3 {
   margin-top: 8px;
-  background-color: rgb(250, 180, 100);
   text-align: center;
-  border: solid 2px rgb(200, 150, 80);
-  border-radius: 7px;
   color: white;
   text-shadow: 1px 2px rgb(20, 20, 120);
-  box-shadow: 3px 3px 8px 0px rgba(150, 90, 60, 1);
 }
 
 .fiche {
@@ -458,7 +457,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .cta {
-  background: #6030FF;
+  background: rgb(50, 30, 175);
   color: white;
   cursor: pointer;
   display: block;
@@ -471,7 +470,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 form {
-  background: #3020B0;
+  background: rgb(120,100,250);
   display: flex;
   flex-flow: row nowrap;
   padding: 1rem;
@@ -494,7 +493,7 @@ form input[type="email"]:focus {
 }
 
 form input[type="submit"] {
-  background: linear-gradient(#744aff, #6030ff);
+  background: rgb(50, 30, 175);
   cursor: pointer;
   color: white;
   border: none;
@@ -504,7 +503,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background: linear-gradient(#784fff, #6435ff);
+  background: rgb(35, 15, 160);
 }
 
 .hidden {
