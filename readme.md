@@ -1,1 +1,1 @@
-Terminer le README svp
+Terminer le README svp.
