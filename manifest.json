@@ -9,4 +9,10 @@
   "description" : "Site de Podcasts de Pilot-Media",
   "dir" : "ltr",
   "lang" : "fr",
+  "icons" : [
+    {
+
+    },
+    
+  ]
 }
