@@ -1,0 +1,77 @@
+.title {
+    margin-top: 20px;
+}
+
+.titleImage {
+    background-color: peru;
+    display: block;
+    text-align: center;
+    border: solid 1px #999999;
+    min-height: 200px;
+    max-height: 800px;
+    min-width: 100%;
+    margin-bottom: 8px;
+}
+
+.personalImage {
+    display: block;
+    justify-items: center;
+    text-align: center;
+    background-color: peru;
+    border: solid 1px #999999;
+    min-height: 150px;
+    max-height: 600px;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 6px 0px;
+}
+
+.separatorImage {
+    background-color: peru;
+    display: block;
+    text-align: center;
+    border: solid 1px #999999;
+    min-height: 150px;
+    max-height: 600px;
+    min-width: 100%;
+    margin: 14px 0px;
+}
+
+.buttonCenterAlign {
+    display: block;
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.aPersonal {
+    background-color: #8888FF;
+    border: solid 1px blue;
+    border-radius: 3px;
+    padding: 5px 0px;
+    margin: 0px;
+    height: 30px;
+    width: 80px;
+}
+
+.aPersonal:hover {
+    background-color: #5555BB;
+}
+
+/* à changer -> */
+.btn {
+    padding: 0px;
+    margin: 0px;
+    height: 30px;
+    width: 80px;
+    color: rgb(240, 240, 250);
+}
+
+.btn:hover {
+    color: rgba(240, 240, 250, 0.7);
+}
+/* -> à changer */
+
+.desc {
+    text-align: justify;
+}
