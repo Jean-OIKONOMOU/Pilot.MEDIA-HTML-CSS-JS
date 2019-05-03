@@ -185,7 +185,7 @@ body, html {
 }
 
 #navigation li:first-child a {
-  border-left: 10px solid #321eaf;
+  border-left: 10px solid #0ac2fc;
 }
 
 #navigation li:nth-child(2) a {
@@ -201,7 +201,7 @@ body, html {
 }
 
 #navigation li:last-child a {
-  border-left: 10px solid #321eaf;
+  border-left: 10px solid #0ac2fc;
 }
 
 #navigation li a:after {
