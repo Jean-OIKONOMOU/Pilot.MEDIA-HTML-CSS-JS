@@ -30,29 +30,29 @@ PilotMedia is a startup aiming to train individuals in the fields of video produ
 
 ## Tasks distribution
 
-[Reda M'RABET]() & [Othman MOULILA]():
+[Reda M'RABET](https://github.com/redamrabet) & [Othman MOULILA](https://github.com/luffy1140/):
+ - API testing
  - Use of the Mixcloud API and RSS feed
  - Data management of the various APIs and RSS feeds
  - Displaying the API data on the front-end
  - Customization of the Swiper carousel
  - Creation of the README
- - API testing
 
-[Pablo MOMBO]():
+[Pablo MOMBO](https://github.com/pablomombo/):
  - Page 3, 4, 6 and 7
  - General design, color chart, visual and auditive colors
  - Social buttons
  - Typography
  - Use of his Mixcloud account
 
-[Matthieu MEURANT]():
+[Matthieu MEURANT](https://github.com/MazzinWX/):
  - Page 2, personal page 1 and 2
  - General design, color chart, visual and auditive colors
  - Cleaning of the CSS code (removing unwanted elements, ordering it)
  - Links management
  - API testing
  
-[Jean-Adrian OIKONOMOU]():  
+[Jean-Adrian OIKONOMOU](https://github.com/Jean-OIKONOMOU/):  
  - Page 1 and 5
  - Various HTML and CSS corrections spanning over all of the project's pages
  - The navbar 
