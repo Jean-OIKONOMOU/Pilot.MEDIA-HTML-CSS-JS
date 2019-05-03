@@ -1,0 +1,151 @@
+/* Navbar */
+
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
+#navigation {
+    background-color: white;
+    padding: 20px 10px;
+    z-index: 999;
+    width: 100%;
+}
+
+#navigation li {
+    padding: 0 10px;
+}
+
+#navigation li a {
+    color: black;
+}
+
+.navbar-brand, .navbar-brand:hover, .fa-project-diagram {
+    color: white;
+}
+
+#navigation {
+    position: fixed;
+    top: 0;
+}
+
+#navigation li:first-child a {
+    border-left: 10px solid #321eaf;
+}
+
+#navigation li:nth-child(2) a {
+    border-left: 10px solid #7864fa;
+}
+
+#navigation li:nth-child(3) a {
+    border-left: 10px solid #d3d3d3;
+}
+
+#navigation li:nth-child(4) a {
+    border-left: 10px solid #7864fa;
+}
+
+#navigation li:last-child a {
+    border-left: 10px solid #321eaf;
+}
+
+#navigation li a:after {
+    content: "";
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 0px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    z-index: -1;
+}
+
+#navigation li a:hover:after {
+    width: 100%;
+}
+
+#navigation li:first-child a:after {
+    background: #321eaf;
+}
+
+#navigation li:nth-child(2) a:after {
+    background: #7864fa;
+}
+
+#navigation li:nth-child(3) a:after {
+    background: #d3d3d3;
+}
+
+#navigation li:nth-child(4) a:after {
+    background: #7864fa;
+}
+
+#navigation li:last-child a:after {
+    background: #321eaf;
+}
+
+/* -- END -- Navbar */
+
+/* Swiper */
+
+.swiper-container {
+    width: 100%;
+    height: 450px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide .details {
+    background-color: black !important;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.swiper-slide .imgBx img {
+    background-color: #d60303 !important;
+    width: 100%;
+}
+
+.swiper-slide .imgBx {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+/* -- END -- Swiper */
