@@ -2,10 +2,10 @@
 
 ***Collaborators*** 
 
-- [Reda M'rabet](https://github.com/redamrabet)
-- [Othman Moulila](https://github.com/luffy1140/)
-- [Pablo Mombo](https://github.com/pablomombo/)
-- [Matthieu Meurant](https://github.com/MazzinWX/)
+- [Reda M'RABET](https://github.com/redamrabet)
+- [Othman MOULILA](https://github.com/luffy1140/)
+- [Pablo MOMBO](https://github.com/pablomombo/)
+- [Matthieu MEURANT](https://github.com/MazzinWX/)
 - [Jean OIKONOMOU](https://github.com/Jean-OIKONOMOU/)
 
 - Required time : 10 days
