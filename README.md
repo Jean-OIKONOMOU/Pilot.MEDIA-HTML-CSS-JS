@@ -15,51 +15,54 @@
 
 ## Project
 
-Its a collaboration between BeCode and PiloteMedia.
+This podcast website is the fruit of a collaboration between BeCode and PiloteMedia.
+PilotMedia is a startup aiming to train individuals in the fields of video production, graphic design, and management.
 
 
 ## Technologies used 
 
-- HTML5&CSS3 
-- Bootstrap
-- Javascript
-- API
-- SwiperJS
-
+- HTML5 / CSS3 / Javascript
+- Bootstrap 4
+- RSS feeds
+- Various APIs
+- SwiperJS plugin (for the touch-responsive carousel on the front page)
 
 
 ## Tasks distribution
 
-Reda & Othman:
- - Use of the Mixcloud API
- - Get data from the API
- - Insert the data inside a loop in JavaScript
- - Display the data (from the podcast) in HTML via JavaScript
- - Customise the Swiper
- - Made the ReadMe
+[Reda M'RABET]() & [Othman MOULILA]():
+ - Use of the Mixcloud API and RSS feed
+ - Data management of the various APIs and RSS feeds
+ - Displaying the API data on the front-end
+ - Customization of the Swiper carousel
+ - Creation of the README
+ - API testing
 
-Pablo:
+[Pablo MOMBO]():
  - Page 3, 4, 6 and 7
- - Part of the design
+ - General design, color chart, visual and auditive colors
  - Social buttons
  - Typography
+ - Use of his Mixcloud account
 
-Matthieu:
+[Matthieu MEURANT]():
  - Page 2, personal page 1 and 2
- - General design, color chart, visual colors
- - Cleaning of the CSS code and condensation
+ - General design, color chart, visual and auditive colors
+ - Cleaning of the CSS code (removing unwanted elements, ordering it)
  - Links management
- - Tests API
+ - API testing
  
-Jean:  
- - Page 1,3 and 5
- - Navbar 
+[Jean-Adrian OIKONOMOU]():  
+ - Page 1 and 5
+ - Various HTML and CSS corrections spanning over all of the project's pages
+ - The navbar 
  - Loading screen
- - Part of the design 
- - Carousel de la page 1 avec [sweeperJS](https://idangero.us/swiper/)
+ - Carousel of page 1 with [SwiperJS](https://idangero.us/swiper/)
  - Footer
- - Social buttons (facebook, twitter)
+ - Current social buttons (facebook, twitter, instagram)
+ - A bunch of CSS animations (i just love CSS animations)
  - Manifest.json
- - Service Worker (PWA)
+ - Service Worker
+ - Error-proofing the README
 
 
