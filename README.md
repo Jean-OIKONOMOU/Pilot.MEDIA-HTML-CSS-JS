@@ -13,27 +13,38 @@
 - When: 22 Avril-3 May 2019
 - Link: #
 
-## Projet
+## Project
 
-Application Météo créé avec VueJS composé d'un input de recherche pour la ville.
 
-## Langages utilisés
 
-- HTML5&CSS3 (GRID)
+
+
+## Technologies used 
+
+- HTML5&CSS3 
 - Bootstrap
 - Javascript
-- 
+- API
+- SwiperJS
 
 
-## Distribution de tâches
 
-Reda : 
-Othman:
+## Tasks distribution
+
+Reda & Othman:
+- Use of the Mixcloud API
+- Get data from the API
+- Insert the data inside a loop in JavaScript
+- Display the data (from the podcast) in HTML via JavaScript
+- Customise the Swiper
+- Made the ReadMe
+
 Pablo:
+
 Mathieu:
 
-Jean:  
 
+Jean:  
 - Navbar 
 - Loading screen
 - Part of the design 
