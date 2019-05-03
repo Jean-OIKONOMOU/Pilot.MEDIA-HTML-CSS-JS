@@ -1,6 +1,6 @@
 # Podcast streaming webpage
 
-***Collaborator*** 
+***Collaborators*** 
 
 - [Reda M'rabet](https://github.com/redamrabet)
 - [Othman Moulila](https://github.com/luffy1140/)
