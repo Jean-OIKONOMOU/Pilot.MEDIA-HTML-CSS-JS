@@ -28,9 +28,7 @@
 }
 
 .pic {
-    background-color: aqua;
-    border-style: solid;
-    width: 200px;
-    height: 200px;
-    margin: auto auto 20px auto;
+    width: 204px;
+    height: 204px;
+    margin: auto auto 25px auto;
 }
