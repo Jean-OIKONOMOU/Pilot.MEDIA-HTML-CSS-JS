@@ -56,7 +56,7 @@
 }
 
 #navigation li:first-child a {
-    border-left: 10px solid #321eaf;
+    border-left: 10px solid #3ba7ff;
 }
 
 #navigation li:nth-child(2) a {
@@ -72,7 +72,7 @@
 }
 
 #navigation li:last-child a {
-    border-left: 10px solid #321eaf;
+    border-left: 10px solid #3ba7ff;
 }
 
 #navigation li a:after {
@@ -92,7 +92,7 @@
 }
 
 #navigation li:first-child a:after {
-    background: #321eaf;
+    background: #3ba7ff;
 }
 
 #navigation li:nth-child(2) a:after {
@@ -108,7 +108,7 @@
 }
 
 #navigation li:last-child a:after {
-    background: #321eaf;
+    background: #3ba7ff;
 }
 
 /* -- END -- Navbar */

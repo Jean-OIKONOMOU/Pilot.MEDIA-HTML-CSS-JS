@@ -469,6 +469,11 @@ a.socialIcon:hover, .socialHoverClass {
   content: "\f099";
 }
 
+.fa-arrow-down {
+  content: "\f063";
+}
+
+
 .button::-moz-focus-inner {
   border: 0;
   padding: 0;
