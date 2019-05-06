@@ -46,10 +46,6 @@
     color: black;
 }
 
-.navbar-brand, .navbar-brand:hover, .fa-project-diagram {
-    color: white;
-}
-
 #navigation {
     position: fixed;
     top: 0;
