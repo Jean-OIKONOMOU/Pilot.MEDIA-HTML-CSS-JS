@@ -10,7 +10,7 @@
 
 - Required time : 10 days
 - Where : BeCode
-- When: 22 Avril-3 May 2019
+- When: 22 Avril - 3 May 2019
 - Link: #
 
 ## Project
@@ -28,7 +28,7 @@ PilotMedia is a startup aiming to train individuals in the fields of video produ
 - SwiperJS plugin (for the touch-responsive carousel on the front page)
 
 
-## Tasks distribution
+## Task distribution
 
 [Reda M'RABET](https://github.com/redamrabet) & [Othman MOULILA](https://github.com/luffy1140/):
  - API testing
@@ -60,6 +60,6 @@ PilotMedia is a startup aiming to train individuals in the fields of video produ
  - Carousel of page 1 with [SwiperJS](https://idangero.us/swiper/)
  - Footer
  - Current social buttons (facebook, twitter, instagram)
- - A bunch of CSS animations (i just love CSS animations)
+ - A bunch of CSS animations (I just love CSS animations)
  - Manifest.json
  - Error-proofing the README
