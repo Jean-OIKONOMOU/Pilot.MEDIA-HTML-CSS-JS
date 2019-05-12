@@ -60,7 +60,6 @@ PilotMedia is a startup aiming to train individuals in the fields of video produ
  - Carousel of page 1 with [SwiperJS](https://idangero.us/swiper/)
  - Footer
  - Current social buttons (facebook, twitter, instagram)
- - A bunch of CSS animations (i just love CSS animations)
+ - A bunch of CSS animations (I just love CSS animations)
  - Manifest.json
- - Service Worker
  - Error-proofing the README
